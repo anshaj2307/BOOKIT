@@ -1,0 +1,40 @@
+{
+  "version": 3,
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge-runtime-webpack.js",
+        "server/middleware.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/bookings(.json)?[\\/#\\?]?$",
+          "originalSource": "/bookings"
+        },
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/rooms\\/add(.json)?[\\/#\\?]?$",
+          "originalSource": "/rooms/add"
+        },
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/rooms\\/my(.json)?[\\/#\\?]?$",
+          "originalSource": "/rooms/my"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "6W_hql45Xb8OlhzrKWmC9",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "RiLYCx3QFBbw9cxiDHEs0ie5VOtZ9x/ntvCW66MJs10=",
+        "__NEXT_PREVIEW_MODE_ID": "d012142436d3a22dd0c9b55ab3d0c94a",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "b789ae6dc39c6968b31221a83c75608d511d9d7266e9645da662285a0aab08dc",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "ae2fa7126ddcda39c81a18884027a4ccb84878e60a339ebde0cb67d8de154e48"
+      }
+    }
+  },
+  "functions": {},
+  "sortedMiddleware": [
+    "/"
+  ]
+}

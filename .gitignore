@@ -10,8 +10,11 @@
 /coverage
 
 # next.js
-/.next/
-/out/
+git pull origin main  # Pull latest changes
+npm install           # Ensure dependencies are installed
+npm run build         # Build the Next.js app
+npm start            # Start the server
+
 
 # production
 /build

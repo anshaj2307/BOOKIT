@@ -1,0 +1,11 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/bookings/page": "app/bookings/page.js",
+  "/login/page": "app/login/page.js",
+  "/register/page": "app/register/page.js",
+  "/rooms/my/page": "app/rooms/my/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/rooms/[id]/page": "app/rooms/[id]/page.js",
+  "/page": "app/page.js",
+  "/rooms/add/page": "app/rooms/add/page.js"
+}
